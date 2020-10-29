@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f960b38-fa5c-4ecc-ba36-34f55803146e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/restful-web-services-com-laravel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/app/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/bootstrap/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/database/factories/ModelFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/public/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/resources/assets/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/resources/assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/resources/assets/js/components/Example.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/resources/assets/sass/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/resources/assets/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/resources/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/resources/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/resources/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/resources/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/webpack.mix.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="ProjectId" id="1jWztHj8HNkNtxRzs1J70eJRHcD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql&#10;mariadb" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/laravel-api/.env" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f960b38-fa5c-4ecc-ba36-34f55803146e" name="Default Changelist" comment="" />
+      <created>1603934849611</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603934849611</updated>
+      <workItem from="1603934850884" duration="2149000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603936125605">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1603936125605" />
+    <state x="713" y="227" key="RollbackChangesDialog" timestamp="1603936304159">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="713" y="227" key="RollbackChangesDialog/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1603936304159" />
+  </component>
+</project>
