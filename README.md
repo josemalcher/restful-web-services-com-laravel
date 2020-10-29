@@ -5,6 +5,8 @@ https://academy.especializati.com.br/curso/restful-web-services-com-laravel
 
 APRENDA A CRIAR WEB SERVICES SEGUINDO OS MAIS MODERNOS PADRÕES DE DESENVOLVIMENTO WEB QUE EXISTEM NA ATUALIDADE.
 
+Previsão 31/10/2020 - Início
+
 ## <a name="indice">Índice</a>
 
 1. [Criar o WebService RestFul](#parte1)     
