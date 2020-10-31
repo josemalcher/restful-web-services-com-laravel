@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f960b38-fa5c-4ecc-ba36-34f55803146e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/laravel-api54/database/seeds/ProductTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laravel-api54/database/seeds/UserTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/restful-web-services-com-laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/restful-web-services-com-laravel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/app/Http/Controllers/API/ProductController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel-api54/app/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-api54/app/Models/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel-api54/database/factories/ModelFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-api54/database/factories/ModelFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel-api54/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-api54/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-api54/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-api54/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/laravel-api54/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -137,7 +133,8 @@
       <option name="presentableId" value="Default" />
       <updated>1603934849611</updated>
       <workItem from="1603934850884" duration="2494000" />
-      <workItem from="1604021849133" duration="726000" />
+      <workItem from="1604021849133" duration="1091000" />
+      <workItem from="1604109684130" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="03 - Laravel API - Migrations">
       <created>1603937245863</created>
@@ -146,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603937245863</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="04 - Laravel API - Seeders e Factorys">
+      <created>1604022707564</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604022707564</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,24 +158,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="03 - Laravel API - Migrations" />
-    <option name="LAST_COMMIT_MESSAGE" value="03 - Laravel API - Migrations" />
+    <MESSAGE value="04 - Laravel API - Seeders e Factorys" />
+    <option name="LAST_COMMIT_MESSAGE" value="04 - Laravel API - Seeders e Factorys" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603936125605">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1603936125605" />
-    <state x="537" y="116" key="CommitChangelistDialog2" timestamp="1603937244177">
+    <state x="537" y="116" key="CommitChangelistDialog2" timestamp="1604022700292">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="537" y="116" key="CommitChangelistDialog2/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1603937244177" />
+    <state x="537" y="116" key="CommitChangelistDialog2/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1604022700292" />
     <state x="713" y="227" key="RollbackChangesDialog" timestamp="1603936304159">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="713" y="227" key="RollbackChangesDialog/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1603936304159" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1603937248102">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1604022926579">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1603937248102" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1604022926579" />
   </component>
 </project>
