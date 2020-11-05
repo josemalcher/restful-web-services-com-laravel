@@ -4,6 +4,7 @@
     <list default="true" id="4f960b38-fa5c-4ecc-ba36-34f55803146e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravel-api54/app/Http/Controllers/API/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-api54/app/Http/Controllers/API/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-api54/app/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-api54/app/Models/Product.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +135,8 @@
       <workItem from="1603934850884" duration="2494000" />
       <workItem from="1604021849133" duration="1091000" />
       <workItem from="1604109684130" duration="599000" />
-      <workItem from="1604451219257" duration="383000" />
+      <workItem from="1604451219257" duration="437000" />
+      <workItem from="1604539361667" duration="1403000" />
     </task>
     <task id="LOCAL-00001" summary="03 - Laravel API - Migrations">
       <created>1603937245863</created>
@@ -157,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604110248352</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="06 - Laravel API - Listando todos os Produtos">
+      <created>1604451643475</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604451643475</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,26 +176,27 @@
     <MESSAGE value="03 - Laravel API - Migrations" />
     <MESSAGE value="04 - Laravel API - Seeders e Factorys" />
     <MESSAGE value="05 - Criando a API Laravel" />
-    <option name="LAST_COMMIT_MESSAGE" value="05 - Criando a API Laravel" />
+    <MESSAGE value="06 - Laravel API - Listando todos os Produtos" />
+    <option name="LAST_COMMIT_MESSAGE" value="06 - Laravel API - Listando todos os Produtos" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603936125605">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1603936125605" />
-    <state x="537" y="-961" key="CommitChangelistDialog2" timestamp="1604110246970">
+    <state x="537" y="-961" key="CommitChangelistDialog2" timestamp="1604451641992">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="537" y="-961" key="CommitChangelistDialog2/0.0.1920.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1604110246970" />
+    <state x="537" y="-961" key="CommitChangelistDialog2/0.0.1920.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1604451641992" />
     <state x="537" y="116" key="CommitChangelistDialog2/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1604022700292" />
     <state x="713" y="227" key="RollbackChangesDialog" timestamp="1603936304159">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="713" y="227" key="RollbackChangesDialog/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1603936304159" />
-    <state x="552" y="-816" key="Vcs.Push.Dialog.v2" timestamp="1604110270049">
+    <state x="552" y="-816" key="Vcs.Push.Dialog.v2" timestamp="1604451645348">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="552" y="-816" key="Vcs.Push.Dialog.v2/0.0.1920.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1604110270049" />
+    <state x="552" y="-816" key="Vcs.Push.Dialog.v2/0.0.1920.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1604451645348" />
     <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1604022926579" />
   </component>
 </project>
