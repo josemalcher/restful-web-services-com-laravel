@@ -19,5 +19,8 @@
 
 
 $this->group(['prefix'=> 'V1'], function (){
+
+    $this->post(    'products/search',     'API\V1\ProductController@search');
+
     $this->resource('products', 'API\V1\ProductController', ['except'=>['create', 'edit']]);
 });
