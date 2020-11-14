@@ -24,6 +24,7 @@
       <excludeFolder url="file://$MODULE_DIR$/laravel-api54/vendor/monolog/monolog" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-api54/vendor/mtdowling/cron-expression" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-api54/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/laravel-api54/vendor/namshi/jose" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-api54/vendor/nesbot/carbon" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-api54/vendor/nikic/php-parser" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-api54/vendor/paragonie/random_compat" />
@@ -69,6 +70,7 @@
       <excludeFolder url="file://$MODULE_DIR$/laravel-api54/vendor/symfony/var-dumper" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-api54/vendor/symfony/yaml" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-api54/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/laravel-api54/vendor/tymon/jwt-auth" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-api54/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-api54/vendor/webmozart/assert" />
     </content>

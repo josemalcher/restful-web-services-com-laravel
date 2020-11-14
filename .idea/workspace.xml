@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f960b38-fa5c-4ecc-ba36-34f55803146e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/laravel-api54/config/jwt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/restful-web-services-com-laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/restful-web-services-com-laravel.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel-api54/app/Http/Controllers/API/V1/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-api54/app/Http/Controllers/API/V1/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel-api54/app/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-api54/app/Models/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel-api54/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-api54/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-api54/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-api54/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-api54/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-api54/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-api54/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-api54/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-api54/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-api54/config/app.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +104,8 @@
       <path value="$PROJECT_DIR$/laravel-api54/vendor/sebastian/recursion-context" />
       <path value="$PROJECT_DIR$/laravel-api54/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/laravel-api54/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/laravel-api54/vendor/namshi/jose" />
+      <path value="$PROJECT_DIR$/laravel-api54/vendor/tymon/jwt-auth" />
     </include_path>
   </component>
   <component name="ProjectId" id="1jWztHj8HNkNtxRzs1J70eJRHcD" />
@@ -148,7 +153,8 @@
       <workItem from="1605060001534" duration="1004000" />
       <workItem from="1605145553235" duration="1856000" />
       <workItem from="1605148137382" duration="96000" />
-      <workItem from="1605226842347" duration="1263000" />
+      <workItem from="1605226842347" duration="1688000" />
+      <workItem from="1605313167216" duration="1274000" />
     </task>
     <task id="LOCAL-00001" summary="03 - Laravel API - Migrations">
       <created>1603937245863</created>
@@ -213,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605147670315</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="13 - Laravel API - Paginar e Pesquisar Dados">
+      <created>1605228156329</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605228156329</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,26 +242,27 @@
     <MESSAGE value="09 - Laravel API - Alterar e Validar" />
     <MESSAGE value="10 - Laravel API - Deletar Produto" />
     <MESSAGE value="11 - Versionar API Laravel" />
-    <option name="LAST_COMMIT_MESSAGE" value="11 - Versionar API Laravel" />
+    <MESSAGE value="13 - Laravel API - Paginar e Pesquisar Dados" />
+    <option name="LAST_COMMIT_MESSAGE" value="13 - Laravel API - Paginar e Pesquisar Dados" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603936125605">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1603936125605" />
-    <state x="537" y="-961" key="CommitChangelistDialog2" timestamp="1605147667189">
+    <state x="537" y="-961" key="CommitChangelistDialog2" timestamp="1605228154540">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="537" y="-961" key="CommitChangelistDialog2/0.0.1920.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1605147667189" />
+    <state x="537" y="-961" key="CommitChangelistDialog2/0.0.1920.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1605228154540" />
     <state x="537" y="116" key="CommitChangelistDialog2/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1604625713823" />
     <state x="713" y="227" key="RollbackChangesDialog" timestamp="1603936304159">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="713" y="227" key="RollbackChangesDialog/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1603936304159" />
-    <state x="552" y="-816" key="Vcs.Push.Dialog.v2" timestamp="1605147681870">
+    <state x="552" y="-816" key="Vcs.Push.Dialog.v2" timestamp="1605228158629">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="552" y="-816" key="Vcs.Push.Dialog.v2/0.0.1920.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1605147681870" />
+    <state x="552" y="-816" key="Vcs.Push.Dialog.v2/0.0.1920.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1605228158629" />
     <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1604625721512" />
   </component>
 </project>
