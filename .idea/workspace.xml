@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4f960b38-fa5c-4ecc-ba36-34f55803146e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/laravel-api54/config/jwt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/restful-web-services-com-laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/restful-web-services-com-laravel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api54/app/Http/Controllers/Auth/AuthApiController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel-api54/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-api54/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel-api54/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-api54/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel-api54/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-api54/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel-api54/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-api54/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-api54/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-api54/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +134,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/laravel-api/.env" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/laravel-api54/app/Http/Controllers/Auth" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -131,6 +146,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\restful-web-services-com-laravel\laravel-api54\app\Http\Controllers\Auth" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\laragon\www\restful-web-services-com-laravel\laravel-api54\app\Http\Controllers\API\V1" />
     </key>
@@ -154,7 +172,8 @@
       <workItem from="1605145553235" duration="1856000" />
       <workItem from="1605148137382" duration="96000" />
       <workItem from="1605226842347" duration="1688000" />
-      <workItem from="1605313167216" duration="1274000" />
+      <workItem from="1605313167216" duration="1513000" />
+      <workItem from="1605576243929" duration="2176000" />
     </task>
     <task id="LOCAL-00001" summary="03 - Laravel API - Migrations">
       <created>1603937245863</created>
@@ -226,11 +245,29 @@
       <option name="project" value="LOCAL" />
       <updated>1605228156329</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="14 - Configurar o JWT">
+      <created>1605314665760</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605314665761</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="03 - Laravel API - Migrations" />
@@ -243,26 +280,27 @@
     <MESSAGE value="10 - Laravel API - Deletar Produto" />
     <MESSAGE value="11 - Versionar API Laravel" />
     <MESSAGE value="13 - Laravel API - Paginar e Pesquisar Dados" />
-    <option name="LAST_COMMIT_MESSAGE" value="13 - Laravel API - Paginar e Pesquisar Dados" />
+    <MESSAGE value="14 - Configurar o JWT" />
+    <option name="LAST_COMMIT_MESSAGE" value="14 - Configurar o JWT" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603936125605">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1603936125605" />
-    <state x="537" y="-961" key="CommitChangelistDialog2" timestamp="1605228154540">
-      <screen x="0" y="-1080" width="1920" height="1080" />
+    <state x="537" y="116" key="CommitChangelistDialog2" timestamp="1605314664463">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="537" y="-961" key="CommitChangelistDialog2/0.0.1920.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1605228154540" />
-    <state x="537" y="116" key="CommitChangelistDialog2/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1604625713823" />
+    <state x="537" y="116" key="CommitChangelistDialog2/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1605314664463" />
     <state x="713" y="227" key="RollbackChangesDialog" timestamp="1603936304159">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="713" y="227" key="RollbackChangesDialog/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1603936304159" />
-    <state x="552" y="-816" key="Vcs.Push.Dialog.v2" timestamp="1605228158629">
-      <screen x="0" y="-1080" width="1920" height="1080" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1605314670113">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="-816" key="Vcs.Push.Dialog.v2/0.0.1920.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1605228158629" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1604625721512" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1605314670113" />
   </component>
 </project>
