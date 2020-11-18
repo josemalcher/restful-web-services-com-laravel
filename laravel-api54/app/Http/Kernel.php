@@ -34,6 +34,12 @@ class Kernel extends HttpKernel
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
             \App\Http\Middleware\VerifyCsrfToken::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
+
+            /*
+             * https://github.com/fruitcake/laravel-cors/tree/v0.8.5
+             *
+             * */
+            \Barryvdh\Cors\HandleCors::class,
         ],
 
         'api' => [

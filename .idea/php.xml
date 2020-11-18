@@ -69,6 +69,7 @@
       <path value="$PROJECT_DIR$/laravel-api54/vendor/sebastian/version" />
       <path value="$PROJECT_DIR$/laravel-api54/vendor/namshi/jose" />
       <path value="$PROJECT_DIR$/laravel-api54/vendor/tymon/jwt-auth" />
+      <path value="$PROJECT_DIR$/laravel-api54/vendor/barryvdh/laravel-cors" />
     </include_path>
   </component>
   <component name="PhpUnit">

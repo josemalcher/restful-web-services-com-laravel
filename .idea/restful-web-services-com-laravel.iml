@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/laravel-api54/app" isTestSource="false" packagePrefix="App\" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/laravel-api54/tests" isTestSource="true" packagePrefix="Tests\" />
+      <excludeFolder url="file://$MODULE_DIR$/laravel-api54/vendor/barryvdh/laravel-cors" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-api54/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-api54/vendor/dnoegel/php-xdg-base-dir" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-api54/vendor/doctrine/inflector" />

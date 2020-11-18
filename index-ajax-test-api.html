@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Ajax</title>
+</head>
+<body>
+    
+    <button class="btn_request">Enviar Requisição</button>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>    
+    $(function(){
+
+        var token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hcGkvVjEvYXV0aCIsImlhdCI6MTYwNTcwODUxNywiZXhwIjoxNjA1NzEyMTE3LCJuYmYiOjE2MDU3MDg1MTcsImp0aSI6IjF0VDdJVm9PYW1Qek9RbzcifQ.20Pu8g9k_W3b2n9v1gLdXlS8w3l7iYPu4AtplZCnYzM';
+
+        $('.btn_request').click(function(){
+            $.ajax({
+                url: 'http://127.0.0.1:8000/api/V1/products',
+                method: 'GET',
+                data: {'token': token}
+            }).done(function(data){
+                alert("Sucesso");
+                console.log(data);
+            }).fail(function(){
+                console.log(data);
+                alert("FALHA!!!")
+            });
+        });
+    })
+    </script>
+</body>
+</html>

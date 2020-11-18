@@ -178,7 +178,13 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         /* https://github.com/tymondesigns/jwt-auth/wiki/Installation */
-        Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class
+        Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
+
+        /*
+         *
+         * https://github.com/fruitcake/laravel-cors/tree/v0.8.5
+         * */
+        Barryvdh\Cors\ServiceProvider::class,
 
     ],
 
