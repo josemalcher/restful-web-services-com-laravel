@@ -21,10 +21,11 @@
 $this->group(['prefix'=> 'V1'], function (){
 
     $this->post('auth','Auth\AuthApiController@authenticate');
+    $this->post('auth-refresh','Auth\AuthApiController@authenticate');
 
 
     $this->group(['middleware'=>'jwt.auth'], function (){
-        $this->post(    'products/search',     'API\V1\ProductController@search');
+        $this->post(    'products/search',     'API\V1\ProductController@refreshToken');
 
         $this->resource('products', 'API\V1\ProductController', ['except'=>['create', 'edit']]);
     });

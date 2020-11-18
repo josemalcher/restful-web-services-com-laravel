@@ -3,10 +3,12 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use http\Env\Response;
 use Illuminate\Http\Request;
 
 use JWTAuth;
 use Tymon\JWTAuth\Exceptions\JWTException;
+use Tymon\JWTAuth\Exceptions\TokenInvalidException;
 
 
 class AuthApiController extends Controller
@@ -27,6 +29,20 @@ class AuthApiController extends Controller
         }
 
         // all good so return the token
+        return response()->json(compact('token'));
+    }
+
+    public function refreshToken(Request $request)
+    {
+        if(!$token = $request->get('token')){
+            return response()->json(['error' => 'toquen_not_send'], 401);
+        }
+        try {
+            $token = JWTAuth::refresh($token);
+        }catch (TokenInvalidException $e){
+            return response()->json(['error' => 'token_invalid'], 401);
+        }
+
         return response()->json(compact('token'));
     }
 }
