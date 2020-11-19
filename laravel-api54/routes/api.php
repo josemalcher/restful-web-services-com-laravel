@@ -25,7 +25,7 @@ $this->group(['prefix'=> 'V1'], function (){
 
 
     $this->group(['middleware'=>'jwt.auth'], function (){
-        $this->post(    'products/search',     'API\V1\ProductController@refreshToken');
+        $this->get(    'products/search',     'API\V1\ProductController@refreshToken');
 
         $this->resource('products', 'API\V1\ProductController', ['except'=>['create', 'edit']]);
     });

@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f960b38-fa5c-4ecc-ba36-34f55803146e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel-api54/app/Http/Controllers/API/V1/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-api54/app/Http/Controllers/API/V1/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-api54/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-api54/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +176,7 @@
       <workItem from="1605576243929" duration="2467000" />
       <workItem from="1605662605688" duration="1293000" />
       <workItem from="1605705599718" duration="4169000" />
-      <workItem from="1605783830190" duration="956000" />
+      <workItem from="1605783830190" duration="1331000" />
     </task>
     <task id="LOCAL-00001" summary="03 - Laravel API - Migrations">
       <created>1603937245863</created>
@@ -277,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605711204537</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="19 - Laravel API - Status Code e Exceptions">
+      <created>1605787689491</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1605787689491</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +316,8 @@
     <MESSAGE value="15 - Creating Tokens JWT Laravel" />
     <MESSAGE value="16 - Refresh Token JWT Laravel" />
     <MESSAGE value="18 - Laravel API - CORS (Cross-Origin Resource Sharing)" />
-    <option name="LAST_COMMIT_MESSAGE" value="18 - Laravel API - CORS (Cross-Origin Resource Sharing)" />
+    <MESSAGE value="19 - Laravel API - Status Code e Exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="19 - Laravel API - Status Code e Exceptions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603936125605">
