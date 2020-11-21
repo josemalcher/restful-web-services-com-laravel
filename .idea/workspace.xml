@@ -20,8 +20,88 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f960b38-fa5c-4ecc-ba36-34f55803146e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/app/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/bootstrap/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/database/factories/ModelFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/public/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/resources/assets/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/resources/assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/resources/assets/js/components/Example.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/resources/assets/sass/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/resources/assets/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/resources/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/resources/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/resources/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/resources/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/laravel-api-tests/webpack.mix.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php-client/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/php-client/public/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +257,8 @@
       <workItem from="1605576243929" duration="2467000" />
       <workItem from="1605662605688" duration="1293000" />
       <workItem from="1605705599718" duration="4169000" />
-      <workItem from="1605783830190" duration="8024000" />
+      <workItem from="1605783830190" duration="8492000" />
+      <workItem from="1605893462783" duration="5043000" />
     </task>
     <task id="LOCAL-00001" summary="03 - Laravel API - Migrations">
       <created>1603937245863</created>
@@ -305,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605810286705</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="04 - Laravel API - Listando os Produtos">
+      <created>1605813714023</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1605813714023</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,18 +430,19 @@
     <MESSAGE value="20 - Laravel API - Verbos HTTP" />
     <MESSAGE value="02 - Laravel API - Configurando PHP e Autoload" />
     <MESSAGE value="03 - Laravel API - Login no Web Service" />
-    <option name="LAST_COMMIT_MESSAGE" value="03 - Laravel API - Login no Web Service" />
+    <MESSAGE value="04 - Laravel API - Listando os Produtos" />
+    <option name="LAST_COMMIT_MESSAGE" value="04 - Laravel API - Listando os Produtos" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603936125605">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1603936125605" />
-    <state x="537" y="116" key="CommitChangelistDialog2" timestamp="1605810285631">
+    <state x="537" y="116" key="CommitChangelistDialog2" timestamp="1605813712291">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="537" y="-961" key="CommitChangelistDialog2/0.0.1920.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1605794183126" />
-    <state x="537" y="116" key="CommitChangelistDialog2/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1605810285631" />
+    <state x="537" y="116" key="CommitChangelistDialog2/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1605813712291" />
     <state x="794" y="-617" key="NewPhpFileDialog" timestamp="1605793911416">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
@@ -362,11 +451,11 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="713" y="227" key="RollbackChangesDialog/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1603936304159" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1605810302680">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1605813716448">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="-816" key="Vcs.Push.Dialog.v2/0.0.1920.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1605794190481" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1605810302680" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1605813716448" />
     <state x="777" y="-627" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605787997946">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
