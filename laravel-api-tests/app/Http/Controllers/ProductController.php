@@ -2,12 +2,25 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Http\Request;
+use App\Models\AuthApi;
 use GuzzleHttp\Client as Guzzle;
 use GuzzleHttp\Exception\RequestException;
-use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
+    private $token;
+    /**
+     * ProductController constructor.
+     */
+    public function __construct()
+    {
+        $auth = new AuthApi();
+        $this->token = $auth->getToken();
+
+    }
+
+
     /**
      * Display a listing of the resource.
      *
@@ -15,20 +28,17 @@ class ProductController extends Controller
      */
     public function index()
     {
+
         $guzzle = new Guzzle;
+        $result = $guzzle->get(env('URL_API').'products',[
+            'headers' => [
+                'Authorization' => "Bearer {$this->token}",
+            ]
+        ]);
 
-        try {
-            $response = $guzzle->request('POST', env('URL_API') . 'auth', [
-                'form_params' => [
-                    'email' => env('EMAIL_API'),
-                    'password' => env('PASS')
-                ]
-            ]);
-
-            dd(\GuzzleHttp\json_decode($response->getBody()));
-
-        } catch (RequestException $e) {
-            dd($e);
+        $products = json_decode($result->getBOdy())->data;
+        foreach ($products->data as $product) {
+            echo "<br> {$product->name}";
         }
 
     }
