@@ -37,10 +37,10 @@ class ProductController extends Controller
         ]);
 
         $products = json_decode($result->getBOdy())->data;
-        foreach ($products->data as $product) {
-            echo "<br> {$product->name}";
-        }
 
+        $title = "Listagem Dinâmica dos produtos";
+
+        return view('tests-api.produtos.index', compact('products', 'title'));
     }
 
     /**
