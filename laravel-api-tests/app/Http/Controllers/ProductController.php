@@ -62,7 +62,21 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //dd($request->all());
+        $dataForm = $request->except('_token');
+
+        $guzzle = new Guzzle;
+
+        $result = $guzzle->request('POST', env('URL_API').'products', [
+            'headers' => [
+                'Authorization' => "Bearer {$this->token}",
+            ],
+            'form_params' => $dataForm,
+        ]);
+
+        return redirect()
+            ->route('products.index')
+            ->with('success', 'Cadastro realizado com sucesso!');
     }
 
     /**

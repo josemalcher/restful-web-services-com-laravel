@@ -52,16 +52,16 @@ class ProductController extends Controller
         $data = $request->all();
 
         $validate = validator($data, $this->product->rules());
-
-        if($validate->fails()){
+        if( $validate->fails() ) {
             $messages = $validate->messages();
+
             return response()->json(['validate.error', $messages], 422);
         }
 
-        if(!$insert = $this->product->create($request->all())){
-            return response()->json(['error'=> 'error_insert'], 500);
-        }
-        return response()->json(['data'=>$insert], 201);
+        if( !$insert = $this->product->create($data) )
+            return response()->json(['error' => 'error_insert'], 500);
+
+        return response()->json(['data' => $insert], 201);
     }
 
     /**
