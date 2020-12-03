@@ -4,6 +4,10 @@
 
     <h1>Exibição dos Produtos</h1>
 
+    <a href="{{route('products.create')}}" class="btn btn-success">Cadastrar <span class="glyphicon glyphicon-plus"></span></a>
+
+    <hr>
+
     <table class="table table-striped">
         <tr>
             <th>Nome</th>

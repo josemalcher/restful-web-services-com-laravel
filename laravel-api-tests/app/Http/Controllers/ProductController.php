@@ -50,7 +50,8 @@ class ProductController extends Controller
      */
     public function create()
     {
-        //
+        $title = "Cadastrar Novo Produto no Web Service";
+        return view('tests-api.produtos.create');
     }
 
     /**

@@ -10,8 +10,9 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-$this->get('products/{page}', 'ProductController@paginate')->name('products.paginate');
 $this->resource('products', "ProductController");
+
+$this->get('products/pg/{page}', 'ProductController@paginate')->name('products.paginate');
 
 Route::get('/', function () {
     return view('welcome');
