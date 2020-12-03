@@ -22,4 +22,26 @@
         @endforelse
     </table>
 
+    <nav aria-label="Page navigation">
+        <ul class="pagination">
+            @if( $products->prev_page_url != '' )
+                <li>
+                    <a href="{{route('products.paginate', $products->current_page - 1)}}" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+            @endif
+
+            <li class="action"><a href="#">{{$products->current_page}}</a></li>
+
+            @if( $products->next_page_url != '' )
+                <li>
+                    <a href="{{route('products.paginate', $products->current_page + 1)}}" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            @endif
+        </ul>
+    </nav>
+
 @endsection

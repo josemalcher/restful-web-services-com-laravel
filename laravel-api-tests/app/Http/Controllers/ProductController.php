@@ -108,4 +108,20 @@ class ProductController extends Controller
     {
         //
     }
+
+    public function paginate($page)
+    {
+        $guzzle = new Guzzle;
+        $result = $guzzle->get(env('URL_API').'products?page={$page}',[
+            'headers' => [
+                'Authorization' => "Bearer {$this->token}",
+            ]
+        ]);
+
+        $products = json_decode($result->getBOdy())->data;
+
+        $title = "Listagem Dinâmica dos produtos";
+
+        return view('tests-api.produtos.index', compact('products', 'title'));
+    }
 }
