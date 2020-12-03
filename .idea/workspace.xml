@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f960b38-fa5c-4ecc-ba36-34f55803146e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/laravel-api-tests/resources/views/tests-api/produtos/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel-api-tests/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-api-tests/app/Http/Controllers/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel-api-tests/resources/views/tests-api/produtos/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-api-tests/resources/views/tests-api/produtos/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel-api-tests/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-api-tests/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-api-tests/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-api-tests/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-api-tests/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-api-tests/config/app.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +188,7 @@
       <workItem from="1606699967886" duration="379000" />
       <workItem from="1606700378274" duration="2130000" />
       <workItem from="1606869378298" duration="2633000" />
-      <workItem from="1606995442999" duration="2804000" />
+      <workItem from="1606995442999" duration="4256000" />
     </task>
     <task id="LOCAL-00001" summary="03 - Laravel API - Migrations">
       <created>1603937245863</created>
@@ -367,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606998036561</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="07 - Preparar Para Cadastrar Produto API">
+      <created>1606998792234</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1606998792234</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +391,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="03 - Laravel API - Migrations" />
     <MESSAGE value="04 - Laravel API - Seeders e Factorys" />
     <MESSAGE value="05 - Criando a API Laravel" />
     <MESSAGE value="06 - Laravel API - Listando todos os Produtos" />
@@ -411,7 +415,8 @@
     <MESSAGE value="05 - Listando os Produtos API" />
     <MESSAGE value="06 - Paginando Resultados API" />
     <MESSAGE value="06 - Paginando Resultados API [FIX]" />
-    <option name="LAST_COMMIT_MESSAGE" value="06 - Paginando Resultados API [FIX]" />
+    <MESSAGE value="07 - Preparar Para Cadastrar Produto API" />
+    <option name="LAST_COMMIT_MESSAGE" value="07 - Preparar Para Cadastrar Produto API" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603936125605">
@@ -422,11 +427,11 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="279" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1606700607886" />
-    <state x="62" y="50" width="1695" height="945" key="CommitChangelistDialog2" timestamp="1606998034590">
+    <state x="62" y="50" width="1695" height="945" key="CommitChangelistDialog2" timestamp="1606998790314">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="537" y="-961" key="CommitChangelistDialog2/0.0.1920.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1605794183126" />
-    <state x="62" y="50" width="1695" height="945" key="CommitChangelistDialog2/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1606998034590" />
+    <state x="62" y="50" width="1695" height="945" key="CommitChangelistDialog2/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1606998790314" />
     <state x="794" y="450" key="NewPhpFileDialog" timestamp="1606998412567">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -440,11 +445,11 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1606700349037" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1606998041847">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1606998796215">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="-816" key="Vcs.Push.Dialog.v2/0.0.1920.1050/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1605794190481" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1606998041847" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/0.-1080.1920.1080@0.0.1920.1050" timestamp="1606998796215" />
     <state x="777" y="-627" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605787997946">
       <screen x="0" y="-1080" width="1920" height="1080" />
     </state>
