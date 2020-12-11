@@ -58,8 +58,9 @@ class ProductController extends Controller
             return response()->json(['validate.error', $messages], 422);
         }
 
-        if( !$insert = $this->product->create($data) )
+        if( !$insert = $this->product->create($data) ){
             return response()->json(['error' => 'error_insert'], 500);
+        }
 
         return response()->json(['data' => $insert], 201);
     }
